@@ -28,6 +28,5 @@ form.addEventListener('submit', (event) => {
       alert(`Welcome, ${name}. You can vote.`);
     })
     .catch((name) => {
-      alert(`Oh sorry, ${name}. You aren't old enough.`);
-    });
+  alert(`Oh sorry, ${name}. You aren't old enough.`); // No need to escape here
 });
